@@ -4,10 +4,10 @@ Prompt - Increasing Onsite Conversion
 Getting Started
 ======
 
-Download either the <a href="">production version</a> or the <a href="">development version</a> of Prompt.
+Download either the <a href="https://github.com/AaronJach/Prompt/blob/master/src/jquery.prompt.min.js">production version</a> or the <a href="https://github.com/AaronJach/Prompt/blob/master/src/jquery.prompt.js">development version</a> of Prompt.
 
 In your web page:
-<code>
+```
 	<!-- include Prompt Styles-->
 	<link rel="stylesheet" type="text/css" href="http://pathto/jquery.prompt.min.css">
 	<!-- include jQuery -->
@@ -21,7 +21,7 @@ In your web page:
 			$(document).prompt();
 		});
 	</script>
-</code>
+```
 
 Customizing Options
 ======
@@ -56,13 +56,13 @@ Customizing Options
 Example
 ======
 
-<code>
-$(document).ready(function(){
-	$(document).prompt({
-		url:	'https://www.foremostmedia.com',
-		height:	529,
-		scroll: 200,
-		width:	807
-	});
+```
+$(document).ready(function(){<br>
+	$(document).prompt({<br>
+		url:	'https://www.foremostmedia.com',<br>
+		height:	529,<br>
+		scroll: 200,<br>
+		width:	807<br>
+	});<br>
 });
-</code>
+```
