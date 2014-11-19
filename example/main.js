@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	$(document).prompt({
-		url:	'http://info.foremostmedia.com/TestingOverlay.html',
+		url:	'https://www.foremostmedia.com',
 		height:	529,
 		scroll: 200,
 		width:	807

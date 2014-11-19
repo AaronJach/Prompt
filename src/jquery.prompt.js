@@ -1,7 +1,7 @@
 /* Prompt Script */
 $.fn.prompt = function(options) { 
 	var defaultVars = { 
-		url:	'http://www.google.com',
+		url:	'https://www.foremostmedia.com',
 		className:	'promptWrapper',
 		height:	500,
 		scroll: 0,
