@@ -1,0 +1,42 @@
+body{height:2000px;}
+#prompt{
+	left: 0;
+	position: fixed;
+	top: 0;
+}
+
+.promptWrapper {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
+}
+
+.promptInnerWrapper {
+	border: 8px solid #fff;
+	border-radius: 7px;
+	box-shadow: 0 0 10px 0 #222;
+	left: 10px;
+	position: relative;
+	top: 10px;
+}
+
+.promptInnerWrapper iframe {
+	border: none;
+}
+
+.promptExit {
+	background: none repeat scroll 0 0 #000;
+	border: 2px solid #fff;
+	border-radius: 15px;
+	box-shadow: 0 0 10px 0 #222;
+	color: #fff;
+	font: 900 11px/19px "Verdana",sans-serif;
+	height: 20px;
+	position: absolute;
+	right: -20px;
+	text-align: center;
+	top: -20px;
+	width: 20px;
+}
+
+.promptExit:hover {
+	cursor: pointer;
+}
